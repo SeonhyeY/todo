@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+  background-color: var(--color-btn-bg);
+  border-radius: 1rem;
+}
+
+.filter {
+  width: 31%;
+}
+
+.button {
+  text-transform: capitalize;
+  width: 100%;
+  border-radius: 0.7rem;
+  transition: all 200ms ease-out;
+  color: var(--color-dark);
+}
+
+.button:hover {
+  background-color: var(--color-btn-selected);
+  opacity: 0.9;
+}
+
+.button.selected {
+  background-color: var(--color-btn-selected);
+}

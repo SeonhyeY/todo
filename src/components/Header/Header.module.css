@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: solid 1px var(--color-grey);
+}
+
+.h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 1.4rem;
+  margin-right: 5px;
+}
