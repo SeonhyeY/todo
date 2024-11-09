@@ -16,9 +16,9 @@
 html.dark {
   --color-bg: #272727;
   --color-btn-bg: #fff;
-  --color-btn-selected: #e4e4e4;
+  --color-btn-selected: #272727;
   --color-text: #fdfffd;
-  --color-dark: #1c1d22;
+  --color-text-dark: #1c1d22;
 }
 
 body {

@@ -18,14 +18,16 @@
   width: 100%;
   border-radius: 0.7rem;
   transition: all 200ms ease-out;
-  color: var(--color-dark);
+  color: var(--color-text-dark);
 }
 
 .button:hover {
   background-color: var(--color-btn-selected);
+  color: var(--color-text);
   opacity: 0.9;
 }
 
 .button.selected {
   background-color: var(--color-btn-selected);
+  color: var(--color-text);
 }
